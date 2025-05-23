@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    background: url("https://wallpapers.com/images/featured/arte-vetorial-jl6o5f1wvbuj3elt.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-conteiner{
+    width: 420px;
+    background: transparent;
+    border: 2px solid #515151;
+    padding: 30px 40px;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.input-conteiner{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-conteiner input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #515151;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 40px 20px 20px;
+}
+.input-conteiner input::placeholder{
+    color: #fff;
+}
+
+.input-conteiner img{
+    position: absolute;
+    right: 24px;
+    margin-top: 10px;
+    top: 20%;
+}
+
+.input-conteiner a{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.input-conteiner a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(164, 27, 164);
+    margin-top: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(164, 56, 164) ;
+}
+
+.registro p a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.registro p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.registro p a:hover{
+    text-decoration: underline;
+}
+.registro{
+    text-align: center;
+}
